@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'docker_events_dispatcher'
+
+DockerEventsDispatcher.run(*ARGV)
